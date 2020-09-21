@@ -178,7 +178,7 @@ public class HomeFragment extends Fragment {
     }
 
     public void find_weather(){
-        String weatherAPIkey = "788e64613053f4d7f18c43039bbd47ac";
+        String weatherAPIkey = "#############################";
         city = city.replaceAll(" ","%20");
 
         String url= "https://api.openweathermap.org/data/2.5/weather?q="+city+"&units=metric&appid="+weatherAPIkey;
